@@ -5,15 +5,14 @@
     background-color: rgb(172, 245, 153);
 }
 
-
-
 ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
 }
-
 
 li {
     text-decoration: none;
@@ -26,6 +25,14 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color:rgb(255, 255, 255);
+    transition: background-color 350ms ease-in-out;
+}
+
+li :hover { 
+    background-color: rgb(5, 238, 25);
+    transition: background-color 350ms ease-in-out;
+    
 }
 
 a {
@@ -36,7 +43,4 @@ a {
     background-color: white;
 }
 
-li :hover {
-    background-color: rgb(5, 238, 25);
-}
 
