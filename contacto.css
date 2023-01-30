@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(172, 245, 153);
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px rgb(0, 0, 0) solid;
+    width: 120px;
+    margin: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: white;
+}
+
+li :hover {
+    background-color: rgb(5, 238, 25);
+}
+
+.titulo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+   text-shadow: 5px 5px 5px #000;
+}
+
+h2{
+    background-color: rgb(83, 180, 96);
+}
+
+input{
+    background-color: white;
+    line-height: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
