@@ -1,7 +1,7 @@
 img {
   width: 300px;
   border-radius: 10px;
-  border-color: 5px 5px 5px 5px #000;
+  border-color: 5px 5px 5px 5px rgba(0, 0, 0, 1);
 }
 
 .centro {
@@ -14,15 +14,15 @@ img {
 .pie {
   background-color: white;
   padding: 0.65rem;
-  color: black;
+  color: rgba(0, 0, 0, 1);;
   font-weight: bolder;
   font-size: 20px;
-  border: 3px solid black;
+  border: 3px solid rgba(0, 0, 0, 1);
   border-radius: 0.5rem;
   transform: translateY(-60%);
 }
 
 .portada {
   width: 40%;
-  border: 3px solid black;
+  border: 3px solid rgba(0, 0, 0, 1);;
 }
