@@ -17,52 +17,64 @@
     <header>
       <nav>
         <ul>
-            <li>
-              <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="./nosotros.html">Nosotros</a>
-            </li>
-            <li>
-              <!-- Deje que se auto referencie el link de la misma,
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./nosotros.html">Nosotros</a>
+          </li>
+          <li>
+            <!-- Deje que se auto referencie el link de la misma,
                 para despues probar deshabilitarlo por parametros de Css, en la proxima entrega.  -->
-              <a href="./recetas.html">Recetas</a>
-            </li>
-            <li>
-              <a href="./contacto.html" class="deshabilitado">Contacto</a>
-            </li>
-          </ul>
+            <a href="./recetas.html">Recetas</a>
+          </li>
+          <li>
+            <a href="./contacto.html" class="deshabilitado">Contacto</a>
+          </li>
+        </ul>
       </nav>
     </header>
-    <div class="titulo">
-      <h2>SHAWARMA AR</h2>
-    </div>
-    <div class="formulario">
-      <form action="">
-        <h3>SHAWARMA AR</h3>
-        <label for="name"><i class="fa-sharp fa-solid fa-user"></i></label>
-        <input type="text" name="name" placeholder="Nombre" /><br />
-        <label for="name"><i class="fa-sharp fa-solid fa-user"></i></label>
-        <input type="text" name="name" placeholder="Apellido" /><br />
-        <label for="phone"><i class="fa-solid fa-phone"></i></label>
-        <input type="text" name="email" placeholder="Teléfono" /><br />
-        <label for="email"><i class="fa-solid fa-envelope"></i></label>
-        <input type="email" name="email" placeholder="Mail" /><br />
-        <br />
-        <label for="password"><i class="fa-solid fa-comment"></i>Mensaje</label
-        ><br />
-        <input type="password" name="password" autofocus /><br />
-        <input type="submit" value="Send" />
-      </form>
-    </div>
+    <main class="main">
+    
+      <div class="titulo">
+        <h2>SHAWARMA AR</h2>
+      </div>
+      <div class="formulario">
+        <form action="">
+          <div class="form-control">
+            <label for="name"><i class="fa-sharp fa-solid fa-user"></i></label>
+            <input type="text" name="name" placeholder="Nombre" required/>
+          </div>
+          <div class="form-control">
+            <label for="name"><i class="fa-sharp fa-solid fa-user"></i></label>
+            <input type="text" name="name" placeholder="Apellido" />
+          </div>
+         <div class="form-control">
+           <label for="phone"><i class="fa-solid fa-phone"></i></label>
+           <input type="text" name="email" placeholder="Teléfono" />
+         </div> 
+         <div class="form-control">
+           <label for="email"><i class="fa-solid fa-envelope"></i></label>
+           <input type="email" name="email" placeholder="Mail" />
+         </div>
+         <div class="form-control-textarea">
+           <textarea
+              class="textarea"
+             id="message"
+             name="message"
+             placeholder="Mensaje"
+             required
+           ></textarea>
+         </div>
+          <div class="form-control">
+            <input class="btn " type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+      <div class="rrss">
+        <img src="../assets/img/facebook.png" alt="icono facebook" />
+        <img src="../assets/img/instagram.png" alt="icono instagram" />
+      </div>
+    </main>
   </body>
-  <br />
-  <br />
-  <div>
-    <img width="50px" src="../assets/img/descarga.png" />
-    <img
-      width="95px"
-      src="../assets/img/el_androide_libre_123999911_180111531_1706x960.webp"
-    />
-  </div>
 </html>

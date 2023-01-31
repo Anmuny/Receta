@@ -1,11 +1,71 @@
 input {
-  background-color: white;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
   line-height: 20px;
+  width: 18rem;
+  margin: 0 0.5rem 0 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .formulario {
   display: flex;
+  margin-bottom: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.form-control {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* Pensaba extender la clase form control y solo agregar flex-direction pero necesitaria usar SASS */
+.form-control-textarea {
+  display: flex;
+  margin: 1rem;
+  padding-left: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textarea  {
+  height: 6rem;
+  width: 18rem;
+  font-size: 1.1rem;
+  line-height: 20px;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  padding: 0.75rem 0.75rem 0.25rem 0.75rem;
+  background-color: white;
+}
+
+.btn {
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+
+}
+
+
+.rrss {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-right: 3rem;
+  gap: 1rem;
 }
