@@ -6,6 +6,7 @@
 }
 
 .descripcion {
+  margin: 1rem;
   background-color: rgba(255, 255, 255, 1);
   width: 60%;
   box-shadow: 10px 10px 10px rgb(21, 102, 35);
@@ -15,7 +16,7 @@
 .bubble {
   position: relative;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 26px;
   background: rgba(255, 255, 255, 1);
   border-radius: 40px;

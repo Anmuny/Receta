@@ -45,6 +45,7 @@ h4 {
 
 .contenedor-cajas {
   display: flex;
+  margin-top: 2rem;
   justify-content: center;
   gap: 40px;
 }
