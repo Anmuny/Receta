@@ -79,3 +79,29 @@ input {
   height: 42px;
   width: 42px;
 }
+
+@media screen and (max-width: 590px) {
+  input {
+    width: 18rem;
+  }
+  
+  .textarea {
+    width: 18rem;
+  }
+
+  .rrss {
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  input {
+    width: 14rem;
+  }
+
+  .textarea {
+    width: 14rem;
+  }
+}

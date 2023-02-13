@@ -38,3 +38,16 @@
   left: 30px;
   top: -26px;
 }
+
+
+@media screen and (max-width: 992px) {
+  .descripcion {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .descripcion {
+    width: 86%;
+  }
+}
